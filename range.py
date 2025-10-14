@@ -7,3 +7,6 @@ even_nums = list(range(2,10,2))
 # odd numbers
 odd_nums = list(range(1,10,2))
 print(odd_nums)
+
+for i in range(4):
+    print(i)
