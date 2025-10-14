@@ -8,6 +8,7 @@ max_num = max(nums_arr)
 
 
 # minimum number
+
 min_num = min(nums_arr)
 
 # count of numbers in list
@@ -17,3 +18,4 @@ count = len(nums_arr)
 average = sum_of_nums / count
 print(average)
 
+print('hello world')
