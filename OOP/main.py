@@ -6,9 +6,11 @@ class Car:
     def origin(self):
         return f"{self.make} is from Japan"
     
+    def __repr__(self):
+        return f"make={self.make} model={self.model}"
+    
 
 # object
 car_one = Car("Toyota", "Hilux")
 
-print(car_one.make)
-print(car_one.origin())
+print(car_one)
