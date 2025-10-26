@@ -10,7 +10,7 @@ class Car:
         return f"make={self.make} model={self.model}"
     
     def __len__(self):
-        return len(self.make)
+        return len(self.make) 
     
 
 # object
