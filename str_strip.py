@@ -5,3 +5,5 @@ user_name = "marvin"
 print(spaced_name.strip(" "))
 
 print(user_name.strip("m"))
+
+print("I will not give up")
