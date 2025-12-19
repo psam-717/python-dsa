@@ -7,3 +7,4 @@ print(spaced_name.strip(" "))
 print(user_name.strip("m"))
 
 print("I will not give up")
+print("Ah shit here we go again")
