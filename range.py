@@ -8,5 +8,22 @@ even_nums = list(range(2,10,2))
 odd_nums = list(range(1,10,2))
 print(odd_nums)
 
-for i in range(4):
-    print(i)
+num = 8
+
+# left angle triangle
+print("\nLeft-angle triangle")  
+for i in range(num):
+    print('*' * i)
+  
+  
+print("\n Right-angle triangle")
+for i in range(num):
+    print(" " * (num-i-1), "*" * i)
+
+
+print("\nFull triangle")  
+for i in range(num):
+    print(" " * (num-i-1), '*' * (2*i-1))
+    
+
+    
